@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ContratoPersistencia\ContratoPersistencia.csproj" />
+      <ProjectReference Include="..\CsvPersistencia\CsvPersistencia.csproj" />
+      <ProjectReference Include="..\JsonPersistencia\JsonPersistencia.csproj" />
+      <ProjectReference Include="..\MongoDBPersistencia\MongoDBPersistencia.csproj" />
+      <ProjectReference Include="..\PostgresPersistencia\PostgresPersistencia.csproj" />
+    </ItemGroup>
+
+</Project>

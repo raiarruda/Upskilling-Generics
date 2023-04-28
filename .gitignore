@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.idea/.idea.Upskilling-POO-Persistencia/.idea
+/.vs
+/Upskilling-POO-Persistencia.sln.DotSettings.user
